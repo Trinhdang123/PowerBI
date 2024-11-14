@@ -2,16 +2,12 @@
 Learning Source: https://www.youtube.com/watch?v=-sOHVl_iCHA&list=PLO9LeSU_vHCWUvkE1FrGeNxSve7YtJrYl&index=1
 ## Problem Statement
 
-This dashboard helps the airlines understand their customers better. It helps the airlines know if their customers are satisfied with their services. Through different ratings, they get to know their improvement area, & thus they can improve their services by identifying these area. It also lets them know the average delay & departure time, thus since by using this dashboard they have identified this problem, they can further work on factors responsible for these unwanted delays.
-
-Since, number of neutral/dissatisfied customers (almost 57 %) are more than satisfied customers (around 43 %), thus in all they must work on improving their services. 
-
-Also since average delay in arrival & departure both is 15 minutes, thus they must try to reduce it.
+By visualizing key HR metrics, the dashboard will enable better workforce planning, identify areas of high turnover, and reveal trends across different employee age groups and departments. This will help HR to target retention efforts effectively and build a sustainable workforce strategy.
 
 
 ### Steps followed 
 
-- Step 1 : Load data into Power BI Desktop, dataset is a csv file.
+- Step 1 : Load data into Power BI Desktop, dataset is a excel file.
 - Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
 - Step 3 : Also since by default, profile will be opened only for 1000 rows so you need to select "column profiling based on entire dataset".
 - Step 4 : It was observed that in none of the columns errors & empty values were present except column named "Arrival Delay".
