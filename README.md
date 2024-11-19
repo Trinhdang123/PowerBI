@@ -4,6 +4,7 @@ Learning Source: https://www.youtube.com/watch?v=-sOHVl_iCHA&list=PLO9LeSU_vHCWU
 
 By visualizing key HR metrics, the dashboard will enable better workforce planning, identify areas of high turnover, and reveal trends across different employee age groups and departments. This will help HR to target retention efforts effectively and build a sustainable workforce strategy.
 
+![HR Dashboard](https://github.com/user-attachments/assets/65f7afef-1ca2-4e5b-85ed-162ce982b2cd)
 
 ## Key Observations
 ### 1. Overview:
