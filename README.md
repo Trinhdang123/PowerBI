@@ -1,4 +1,4 @@
-# HR-Dashboard
+# HR Dashboard
 Learning Source: https://www.youtube.com/watch?v=-sOHVl_iCHA&list=PLO9LeSU_vHCWUvkE1FrGeNxSve7YtJrYl&index=1
 ## Dashboard Summary
 
