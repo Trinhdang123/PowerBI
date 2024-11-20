@@ -8,8 +8,11 @@ By visualizing key HR metrics, the dashboard will enable better workforce planni
 ![HR Dashboard](https://github.com/user-attachments/assets/65f7afef-1ca2-4e5b-85ed-162ce982b2cd)
 ### 1. Overview:
 Total Employees: The organization has 1,470 employees.
+
 Attrition: A total of 237 employees have left, resulting in an attrition rate of 16.12%.
+
 Active Employees: Currently, there are 1,233 active employees.
+
 Average Age: The average age of employees is 38 years old.
 ### 2. Department-Wise Attrition:
 The R&D department has the highest attrition rate, with 133 employees leaving, accounting for 56.12% of total attrition.
