@@ -1,9 +1,26 @@
 # HR-Dashboard
 Learning Source: https://www.youtube.com/watch?v=-sOHVl_iCHA&list=PLO9LeSU_vHCWUvkE1FrGeNxSve7YtJrYl&index=1
-## Problem Statement
+## Dashboard Summary
 
 By visualizing key HR metrics, the dashboard will enable better workforce planning, identify areas of high turnover, and reveal trends across different employee age groups and departments. This will help HR to target retention efforts effectively and build a sustainable workforce strategy.
+![HR Dashboard](https://github.com/user-attachments/assets/65f7afef-1ca2-4e5b-85ed-162ce982b2cd)
 
+## Formulas Used
+1. Add Column: Attrition Count
+ 
+        = Table.AddColumn(#"Changed Type", "Attrition Count", each if [Attrition] = "Yes" then 1 else 0)
+
+2. Attrition Rate
+   
+        Attrition Rate = sum('HR data'[Attrition Count])/SUM('HR data'[Employee Count])
+
+4. Active Employee
+   
+        Active Employee = sum('HR data'[Employee Count])-SUM('HR data'[Attrition Count])
+
+5. Add Column: Sort Age
+   
+        = Table.AddColumn(#"Changed Type1", "Sort Age", each if [CF_age band] = "Under 25" then 1 else if [CF_age band] = "25 - 34" then 2 else if [CF_age band] = "35 - 44" then 3 else if [CF_age band] = "45 - 54" then 4 else 5)
 ## Key Observations
 ![HR Dashboard](https://github.com/user-attachments/assets/65f7afef-1ca2-4e5b-85ed-162ce982b2cd)
 ### 1. Overview:
